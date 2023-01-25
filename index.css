@@ -25,3 +25,61 @@ Images:
 - "https://i.pinimg.com/236x/d6/3f/56/d63f563519df0ece564b82c72e9e306c.jpg"
     - (You may use any image you would like for the background!)
 */
+@font-face {
+    font-family: Copperplate;
+    src: url(COPRGTL.ttf);
+}
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url(https://i.pinimg.com/236x/d6/3f/56/d63f563519df0ece564b82c72e9e306c.jpg);
+    font-family: Copperplate, serif;
+    background-size: cover;
+}
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 3px 3px 5px rgb(243, 183, 106);
+    text-decoration: underline;
+    color:rgb(109, 0, 251);
+    font-size: 2rem;
+    border-radius: 1rem;
+    background-image: linear-gradient(rgb(116, 201, 241),rgb(251, 64, 64));
+    text-align: center;
+    margin: 1em 25%;
+    padding: 1rem;
+}
+#row1, #row2 {
+    width: 35%;
+    color: white;
+    margin: 1em 25%;
+}
+#row2 {
+    margin-left: 40%;
+}
+#row1 img, #row2 img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1em;
+}
+#row1 img {
+    box-shadow: 5px 2px 2px blue;
+} 
+#row2 img {
+    box-shadow: -5px -2px 2px rgb(251, 64, 64);
+} 
+#row1-section2, #row2-section2 {
+    border-radius: 0.5rem;
+    border: 3px solid black;
+    padding: 0.5rem;
+}
+#row1-section2 {
+    background-color:rgb(116, 201, 241);
+    border-color:rgb(241, 117, 0);
+}
+#row2-section2 {
+    background-color:rgb(251, 64, 64);
+    border-color:rgb(13, 110, 0);
+}
+div p {
+    margin: 0px;
+}
